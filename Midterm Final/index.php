@@ -1,9 +1,9 @@
 <?php
-require('model/database.php');
-require('model/vehicle_DB.php');
-require('model/type_DB.php');
-require('model/class_DB.php');
-require('model/make_DB.php');
+require('Data/database.php');
+require('Data/vehicle_DB.php');
+require('Data/type_DB.php');
+require('Data/class_DB.php');
+require('Data/make_DB.php');
 $type_id = filter_input(INPUT_POST, 'type_id', FILTER_VALIDATE_INT);
 $class_id = filter_input(INPUT_POST, 'class_id', FILTER_VALIDATE_INT);
 $make_id = filter_input(INPUT_POST, 'make_id', FILTER_VALIDATE_INT);
